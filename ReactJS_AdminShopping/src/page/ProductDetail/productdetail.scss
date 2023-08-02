@@ -1,0 +1,82 @@
+.ProductDetail {
+  display: flex;
+  width: 100%;
+  .productDetailContainer {
+    background-color: #f9f8ff;
+    flex: 10;
+    .productView {
+      display: flex;
+      padding: 20px;
+      .left {
+        display: flex;
+        flex: 3;
+        flex-direction: column;
+        margin: 0 20px;
+        .imageContainer {
+          text-align: center;
+        }
+        .imageContainer {
+          background-color: whitesmoke;
+          border-radius: 10px;
+          margin: 10px 0;
+          img {
+            width: 100px;
+            height: 100px;
+          }
+        }
+        .titleProduct {
+          background-color: whitesmoke;
+          border-radius: 10px;
+          .titledesc {
+            padding: 20px;
+          }
+          input,
+          textarea {
+            width: 100%;
+          }
+        }
+      }
+      .right {
+        flex: 3;
+        .inputImage {
+          max-width: 60%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 10px 0;
+          img {
+            width: 100px;
+            height: 100px;
+          }
+        }
+        .inputPrice_ {
+          position: relative;
+          .editButton {
+            position: absolute;
+            top: 1px;
+            right: 211px;
+          }
+          .content {
+            background-color: whitesmoke;
+            border-radius: 10px;
+            max-width: 60%;
+            padding: 20px;
+            .inputField {
+              margin: 10px 0;
+            }
+            form {
+              display: flex;
+              flex-direction: column;
+            }
+            input,
+            label,
+            textarea,
+            select {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

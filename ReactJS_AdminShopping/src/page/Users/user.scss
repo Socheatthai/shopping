@@ -1,0 +1,24 @@
+.list {
+  display: flex;
+  width: 100%;
+  .listContainer {
+    flex: 10;
+    background-color: #f9f8ff;
+    .btn {
+      max-width: 95%;
+      display: flex;
+      justify-content: flex-end;
+    }
+    .userAddButton {
+      width: 80px;
+      border: none;
+      padding: 5px;
+      background-color: teal;
+      border-radius: 5px;
+      cursor: pointer;
+      color: white;
+      font-size: 16px;
+      
+    }
+  }
+}

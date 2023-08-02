@@ -1,0 +1,15 @@
+.NewProduct {
+  display: flex;
+  width: 100%;
+
+  .NewProductContainer,
+  .Container {
+    flex: 10;
+    background-color: #f9f8ff;
+    .Container {
+      padding: 20px;
+    }
+  }
+  .newProductPaper {
+  }
+}

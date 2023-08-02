@@ -1,0 +1,70 @@
+.navbarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  border-bottom: 0.5px solid rgb(231, 228, 228);
+  font-size: 14px;
+  color: #555;
+  padding: 0 20px;
+  .leftContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    input {
+      background-color: transparent;
+      border: none;
+      outline: none;
+    }
+  }
+  .rightContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    .langauge {
+      display: flex;
+      align-items: center;
+      margin: 0 5px;
+    }
+    .counter1 {
+      width: 15px;
+      height: 15px;
+      background-color: red;
+      border-radius: 50%;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 10px;
+      font-weight: bold;
+      position: absolute;
+      top: 3px;
+      right: 103px;
+    }
+    .counter2 {
+      width: 15px;
+      height: 15px;
+      background-color: red;
+      border-radius: 50%;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 10px;
+      font-weight: bold;
+      position: absolute;
+      top: 3px;
+      right: 65px;
+    }
+    .icons {
+      margin: 0 5px;
+    }
+    .avatar {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+    }
+  }
+}
